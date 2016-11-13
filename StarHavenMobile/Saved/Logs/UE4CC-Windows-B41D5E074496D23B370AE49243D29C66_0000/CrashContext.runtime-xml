@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-B41D5E074496D23B370AE49243D29C66_0000</CrashGUID>
+<ProcessId>10596</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<IsEnsure>1</IsEnsure>
+<SecondsSinceStart>3643</SecondsSinceStart>
+<GameName>UE4-StarHavenMobile</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.12.5-3039270+++UE4+Release-4.12</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en_US</AppDefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/UE4/4.12/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/UE4/4.12/</RootDir>
+<MachineId>8EC91AEB493A831E4D3C338A92139058</MachineId>
+<EpicAccountId>a88d15210f454ed7bd4600e2fde33440</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Ensure condition failed: NewObject-&gt;IsA(this-&gt;GeneratedClass) [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 689] &nl;Type mismatch: Expected GameScreen_C, Found LevelScriptBlueprint&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>      Intel(R) Xeon(R) CPU E5-1620 v2 @ 3.70GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1080</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 7</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>Service Pack 1</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17100021760</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>8796092891136</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>5138845696</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>8791780069376</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>2352934912</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>2353680384</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>3536707584</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>3537457152</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<BuildIntegrityStatus>0</BuildIntegrityStatus>
+</PlatformProperties>
+</FGenericCrashContext>

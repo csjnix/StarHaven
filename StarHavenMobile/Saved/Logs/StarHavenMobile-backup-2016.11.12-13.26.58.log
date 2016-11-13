@@ -1,0 +1,645 @@
+﻿Log file open, 11/12/16 11:22:34
+LogInit:Display: Running engine for game: StarHavenMobile
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2038519714) SRandInit(-2038519713).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072599
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.12-19.22.34:730][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.12-19.22.34:730][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.12-19.22.34:743][  0]LogInit: Computer: MICKEY9
+[2016.11.12-19.22.34:743][  0]LogInit: User: csjnix
+[2016.11.12-19.22.34:743][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.12-19.22.34:743][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2016.11.12-19.22.34:743][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.12-19.22.34:743][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.12-19.22.34:743][  0]LogMemory: Process Physical Memory: 191.41 MB used, 191.41 MB peak
+[2016.11.12-19.22.34:743][  0]LogMemory: Process Virtual Memory: 195.27 MB used, 195.27 MB peak
+[2016.11.12-19.22.34:743][  0]LogMemory: Physical Memory: 4202.34 MB used, 16255.29 MB total
+[2016.11.12-19.22.34:743][  0]LogMemory: Virtual Memory: 553.59 MB used, 134217728.00 MB total
+[2016.11.12-19.22.34:770][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.12-19.22.35:147][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.12-19.22.35:178][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2016.11.12-19.22.35:178][  0]LogD3D11RHI:       3037/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.11.12-19.22.35:186][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.11.12-19.22.35:186][  0]LogD3D11RHI:       128/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.11.12-19.22.35:187][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.12-19.22.35:187][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.12-19.22.35:187][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.12-19.22.35:192][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.12-19.22.35:192][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.12-19.22.35:192][  0]LogWindows: EnumDisplayDevices:
+[2016.11.12-19.22.35:192][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2016.11.12-19.22.35:192][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.12-19.22.35:193][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.12-19.22.35:193][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2016.11.12-19.22.35:193][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2016.11.12-19.22.35:193][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2016.11.12-19.22.35:193][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2016.11.12-19.22.35:193][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2016.11.12-19.22.35:193][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.12-19.22.35:209][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.12-19.22.35:220][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.12-19.22.35:220][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Intermediate/Shaders/WorkingDirectory/11640/).
+[2016.11.12-19.22.35:221][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/csjni/AppData/Local/Temp/UnrealShaderWorkingDir/4AE2D0DC432D14A45611F0BEB316847F/'.
+[2016.11.12-19.22.35:221][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.12-19.22.36:068][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.12-19.22.36:077][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.12-19.22.36:086][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.12-19.22.36:094][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.12-19.22.36:102][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.12-19.22.36:109][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.12-19.22.36:117][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.12-19.22.36:124][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.12-19.22.36:130][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.12-19.22.36:138][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.12-19.22.36:145][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.12-19.22.36:161][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.12-19.22.36:161][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.12-19.22.36:162][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.12-19.22.36:184][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.12-19.22.36:191][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.12-19.22.36:198][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.12-19.22.36:205][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.12-19.22.36:212][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.12-19.22.36:212][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.12-19.22.36:272][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.12-19.22.36:317][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/csjni/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.12-19.22.36:317][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/csjni/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.11.12-19.22.36:317][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.12-19.22.36:317][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.12-19.22.36:318][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.12-19.22.36:318][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.12-19.22.36:334][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.12-19.22.36:346][  0]LogDerivedDataCache: Using Local data cache path C:/Users/csjni/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.12-19.22.36:511][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.12-19.22.36:512][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.12-19.22.36:649][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.12-19.22.36:649][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.12-19.22.36:649][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.12-19.22.36:883][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2016.11.12-19.22.37:013][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.128081 seconds
+[2016.11.12-19.22.37:022][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.11.12-19.22.37:022][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.11.12-19.22.37:022][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.12-19.22.37:030][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.12-19.22.37:186][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.12-19.22.37:186][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.12-19.22.37:731][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.12-19.22.37:922][  0]SourceControl: Info Source control is disabled
+[2016.11.12-19.22.37:923][  0]SourceControl: Info Source control is disabled
+[2016.11.12-19.22.37:929][  0]SourceControl: Info Source control is disabled
+[2016.11.12-19.22.37:935][  0]SourceControl: Info Source control is disabled
+[2016.11.12-19.22.38:123][  0]LogEngine: Initializing Engine...
+[2016.11.12-19.22.38:124][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.12-19.22.38:124][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.12-19.22.38:252][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.12-19.22.38:255][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-19.22.38:274][  0]LogInit: FAudioDevice initialized.
+[2016.11.12-19.22.38:297][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/csjni/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.12-19.22.38:303][  0]LogInit: Texture streaming: Enabled
+[2016.11.12-19.22.38:326][  0]LogInit: Transaction tracking system initialized
+[2016.11.12-19.22.38:344][  0]BlueprintLog: New page: Editor Load
+[2016.11.12-19.22.38:403][  0]LocalizationService: Info Localization service is disabled
+[2016.11.12-19.22.38:453][  0]LogConsoleResponse:Display: 
+[2016.11.12-19.22.38:549][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.11.12-19.22.38:550][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.12-19.22.38:628][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/' took 0.01s
+[2016.11.12-19.22.38:628][  0]SourceControl: Info Source control is disabled
+[2016.11.12-19.22.38:628][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.12-19.22.38:629][  0]LightingResults: New page: Lighting Build
+[2016.11.12-19.22.38:631][  0]MapCheck: New page: Map Check
+[2016.11.12-19.22.38:631][  0]LightingResults: New page: Lighting Build
+[2016.11.12-19.22.38:834][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.12-19.22.38:839][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.12-19.22.38:845][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.12-19.22.38:877][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.384ms to complete.
+[2016.11.12-19.22.38:877][  0]LogFileHelpers: Loading map 'Template_Default' took 0.249
+[2016.11.12-19.22.39:043][  0]LogCollectionManager: Loaded 0 collections in 0.001952 seconds
+[2016.11.12-19.22.39:104][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Collections/' took 0.01s
+[2016.11.12-19.22.39:104][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/Developers/csjnix/Collections/' took 0.01s
+[2016.11.12-19.22.39:104][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/Collections/' took 0.01s
+[2016.11.12-19.22.39:104][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.11.12-19.22.39:115][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2047 classes and 369 folders.
+[2016.11.12-19.22.39:123][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.12-19.22.39:124][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.12-19.22.39:124][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.11.12-19.22.39:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.12-19.22.39:425][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.12-19.22.39:436][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.12-19.22.39:594][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.12-19.22.39:608][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.12-19.22.39:634][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.12-19.22.39:635][  0]LogLoad: Full Startup: 6.04 seconds (BP compile: 0.03 seconds)
+[2016.11.12-19.22.39:635][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.12-19.22.39:635][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.12-19.22.39:654][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.12-19.22.39:654][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.12-19.22.39:655][  0]LogOcInput: OculusInput pre-init called
+[2016.11.12-19.22.39:677][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.12-19.22.39:875][  0]LogRenderer: Reallocating scene render targets to support 788x304 (Frame:2).
+[2016.11.12-19.22.39:973][  1]LogAssetRegistry: Asset discovery search completed in 3.1124 seconds
+[2016.11.12-19.22.39:973][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.12-19.22.39:973][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2016.11.12-19.22.42:103][126]LogRenderer: Reallocating scene render targets to support 788x312 (Frame:125).
+[2016.11.12-19.22.42:143][127]LogRenderer: Reallocating scene render targets to support 788x332 (Frame:127).
+[2016.11.12-19.22.42:179][128]LogRenderer: Reallocating scene render targets to support 788x344 (Frame:129).
+[2016.11.12-19.22.42:218][129]LogRenderer: Reallocating scene render targets to support 788x356 (Frame:131).
+[2016.11.12-19.22.42:258][130]LogRenderer: Reallocating scene render targets to support 788x372 (Frame:133).
+[2016.11.12-19.22.42:300][131]LogRenderer: Reallocating scene render targets to support 788x384 (Frame:135).
+[2016.11.12-19.22.42:348][132]LogRenderer: Reallocating scene render targets to support 788x392 (Frame:137).
+[2016.11.12-19.22.42:386][133]LogRenderer: Reallocating scene render targets to support 788x396 (Frame:139).
+[2016.11.12-19.22.42:434][134]LogRenderer: Reallocating scene render targets to support 788x400 (Frame:141).
+[2016.11.12-19.22.42:474][135]LogRenderer: Reallocating scene render targets to support 788x408 (Frame:143).
+[2016.11.12-19.22.42:543][137]LogRenderer: Reallocating scene render targets to support 788x416 (Frame:147).
+[2016.11.12-19.22.42:579][138]LogRenderer: Reallocating scene render targets to support 788x420 (Frame:149).
+[2016.11.12-19.22.42:664][141]LogRenderer: Reallocating scene render targets to support 788x424 (Frame:153).
+[2016.11.12-19.22.42:703][142]LogRenderer: Reallocating scene render targets to support 788x428 (Frame:155).
+[2016.11.12-19.22.42:743][143]LogRenderer: Reallocating scene render targets to support 788x432 (Frame:157).
+[2016.11.12-19.22.42:779][144]LogRenderer: Reallocating scene render targets to support 788x436 (Frame:159).
+[2016.11.12-19.22.42:869][147]LogRenderer: Reallocating scene render targets to support 788x444 (Frame:163).
+[2016.11.12-19.22.42:910][148]LogRenderer: Reallocating scene render targets to support 788x448 (Frame:165).
+[2016.11.12-19.22.42:948][149]LogRenderer: Reallocating scene render targets to support 788x456 (Frame:167).
+[2016.11.12-19.22.42:987][150]LogRenderer: Reallocating scene render targets to support 788x468 (Frame:169).
+[2016.11.12-19.22.43:030][151]LogRenderer: Reallocating scene render targets to support 788x484 (Frame:171).
+[2016.11.12-19.22.43:070][152]LogRenderer: Reallocating scene render targets to support 788x492 (Frame:173).
+[2016.11.12-19.22.43:272][162]LogRenderer: Reallocating scene render targets to support 788x496 (Frame:177).
+[2016.11.12-19.22.43:476][172]LogRenderer: Reallocating scene render targets to support 788x504 (Frame:181).
+[2016.11.12-19.22.43:555][174]LogRenderer: Reallocating scene render targets to support 788x508 (Frame:185).
+[2016.11.12-19.22.43:596][175]LogRenderer: Reallocating scene render targets to support 788x532 (Frame:187).
+[2016.11.12-19.22.43:635][176]LogRenderer: Reallocating scene render targets to support 788x536 (Frame:189).
+[2016.11.12-19.22.43:683][177]LogRenderer: Reallocating scene render targets to support 788x540 (Frame:191).
+[2016.11.12-19.22.43:755][180]LogRenderer: Reallocating scene render targets to support 788x544 (Frame:193).
+[2016.11.12-19.22.43:795][181]LogRenderer: Reallocating scene render targets to support 788x568 (Frame:195).
+[2016.11.12-19.22.44:055][182]LogRenderer: Reallocating scene render targets to support 788x580 (Frame:197).
+[2016.11.12-19.22.44:105][183]LogRenderer: Reallocating scene render targets to support 788x640 (Frame:198).
+[2016.11.12-19.23.09:178][600]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-19.23.09:208][600]Cmd: MAP LOAD FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/LEVELS/GameScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.12-19.23.09:209][600]LightingResults: New page: Lighting Build
+[2016.11.12-19.23.09:209][600]LoadErrors: New page: Loading map: GameScreen.umap
+[2016.11.12-19.23.09:210][600]MapCheck: New page: Map Check
+[2016.11.12-19.23.09:210][600]LightingResults: New page: Lighting Build
+[2016.11.12-19.23.09:262][600]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.12-19.23.09:283][600]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.12-19.23.09:318][600]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.168ms to complete.
+[2016.11.12-19.23.09:318][600]LogFileHelpers: Loading map 'GameScreen' took 0.111
+[2016.11.12-19.24.09:673][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-19.24.09:675][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-19.24.09:675][219]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 3:24:09 AM)
+[2016.11.12-19.24.09:675][219]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_GameScreen
+[2016.11.12-19.24.09:677][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001999s)
+[2016.11.12-19.24.09:678][219]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-19.24.09:678][219]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2016.11.12-19.24.09:678][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LEVELS/GameScreen.GameScreen to /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen (0.002950s)
+[2016.11.12-19.24.09:688][219]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-19.24.09:695][219]LogInit: FAudioDevice initialized.
+[2016.11.12-19.24.09:749][219]LogWorld: Game class is 'GameScreen-GameMode_C'
+[2016.11.12-19.24.09:753][219]LogWorld: Bringing World /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen up for play (max tick rate 60) at 2016.11.12-11.24.09
+[2016.11.12-19.24.09:754][219]LogWorld: Bringing up level for play took: 0.002298
+[2016.11.12-19.24.09:760][219]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.11.12-19.24.09:769][219]LogBlueprintUserMessages: [GameScreen_C_0] ITEM IS FALSE
+[2016.11.12-19.24.09:769][219]PIE: Info Play in editor start time for /Game/LEVELS/UEDPIE_0_GameScreen -0.423
+[2016.11.12-19.24.09:769][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-19.24.37:885][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-19.24.37:931][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-20.29.16:244][703]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Documents/SOURCE CODE CONTROL REPOSITORY/Asset-Repository/IMAGES/HUD/COG-256.png)
+[2016.11.12-20.29.16:248][703]LogTexture:Display: Building textures: COG-256 (AutoDXT)
+[2016.11.12-20.29.16:289][703]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Documents/SOURCE CODE CONTROL REPOSITORY/Asset-Repository/IMAGES/HUD/COG-HIGHLIGHT-256.png)
+[2016.11.12-20.29.16:295][703]LogTexture:Display: Building textures: COG-HIGHLIGHT-256 (AutoDXT)
+[2016.11.12-20.29.20:419][939]LogSavePackage: Save=14.72ms
+[2016.11.12-20.29.20:419][939]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/COG-256235754F64C0EAD55119E51967531D91B.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/Assets/COG-256.uasset'
+[2016.11.12-20.29.20:422][939]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/Assets/COG-256.uasset
+[2016.11.12-20.29.20:755][939]LogSavePackage: Save=34.54ms
+[2016.11.12-20.29.20:755][939]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/COG-HIGHLIGHT-2560B045472435D558E99D512B407EFFC66.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/Assets/COG-HIGHLIGHT-256.uasset'
+[2016.11.12-20.29.20:757][939]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/Assets/COG-HIGHLIGHT-256.uasset
+[2016.11.12-20.29.26:663][268]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2016.11.12-20.30.16:671][148]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.30.16:785][148]BlueprintEditorCompileResults: Info [4063.19] Compile of OptionsWidget successful! [in 113 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.30.19:520][288]LogSavePackage: Save=34.97ms
+[2016.11.12-20.30.19:520][288]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget9E66934848B15C32B699A582D642A147.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.30.19:521][288]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.32.09:833][611]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.32.09:953][611]BlueprintEditorCompileResults: Info [4176.35] Compile of OptionsWidget successful! [in 119 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.32.10:432][636]LogSavePackage: Save=14.24ms
+[2016.11.12-20.32.10:432][636]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget7E11B6AC46173A138660E88E95BEFB5A.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.32.10:433][636]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.39.22:654][152]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LEVELS/GameScreen' took 0.020
+[2016.11.12-20.39.22:658][152]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OBJECTS/SpaceShip/Options/OptionsWidget] ([1] browsable assets)...
+[2016.11.12-20.39.22:658][152]OBJ SavePackage: Finished generating thumbnails for package [/Game/OBJECTS/SpaceShip/Options/OptionsWidget]
+[2016.11.12-20.39.22:683][152]LogSavePackage: Save=15.49ms
+[2016.11.12-20.39.22:683][152]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget_Auto1A9AF12C0417B03152390569F378A849A.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/OBJECTS/SpaceShip/Options/OptionsWidget_Auto1.uasset'
+[2016.11.12-20.39.22:683][152]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/OBJECTS/SpaceShip/Options/OptionsWidget_Auto1.uasset
+[2016.11.12-20.39.22:683][152]LogFileHelpers: Auto-saving content packages took 0.028
+[2016.11.12-20.39.43:595][365]0.236162
+[2016.11.12-20.39.43:677][370]0.252161
+[2016.11.12-20.39.43:695][371]0.293336
+[2016.11.12-20.39.43:712][372]0.441942
+[2016.11.12-20.39.43:730][373]0.652602
+[2016.11.12-20.39.43:730][373]0.670885
+[2016.11.12-20.39.43:747][374]0.761059
+[2016.11.12-20.39.43:814][378]0.716633
+[2016.11.12-20.39.43:833][379]0.658808
+[2016.11.12-20.39.43:850][380]0.650270
+[2016.11.12-20.39.43:900][383]0.635758
+[2016.11.12-20.39.43:917][384]0.598845
+[2016.11.12-20.39.43:934][385]0.567206
+[2016.11.12-20.39.43:951][386]0.552869
+[2016.11.12-20.39.43:968][387]0.543766
+[2016.11.12-20.39.43:985][388]0.563849
+[2016.11.12-20.39.44:001][389]0.644235
+[2016.11.12-20.39.44:019][390]0.705648
+[2016.11.12-20.39.44:035][391]0.714510
+[2016.11.12-20.39.44:053][392]0.711085
+[2016.11.12-20.39.44:071][393]0.697994
+[2016.11.12-20.39.44:071][393]0.698228
+[2016.11.12-20.39.44:088][394]0.670642
+[2016.11.12-20.39.44:104][395]0.642295
+[2016.11.12-20.39.44:121][396]0.601106
+[2016.11.12-20.39.44:138][397]0.529204
+[2016.11.12-20.39.44:139][397]0.518955
+[2016.11.12-20.39.44:157][398]0.404510
+[2016.11.12-20.39.44:174][399]0.293336
+[2016.11.12-20.39.44:190][400]0.205449
+[2016.11.12-20.39.44:207][401]0.177389
+[2016.11.12-20.39.44:224][402]0.179215
+[2016.11.12-20.39.44:241][403]0.220725
+[2016.11.12-20.39.44:257][404]0.275796
+[2016.11.12-20.39.44:274][405]0.344381
+[2016.11.12-20.39.44:291][406]0.396381
+[2016.11.12-20.39.44:307][407]0.418745
+[2016.11.12-20.39.44:324][408]0.419909
+[2016.11.12-20.39.44:340][409]0.421328
+[2016.11.12-20.39.44:374][411]0.424918
+[2016.11.12-20.39.44:390][412]0.379172
+[2016.11.12-20.39.44:408][413]0.316811
+[2016.11.12-20.39.44:425][414]0.265574
+[2016.11.12-20.39.44:442][415]0.244070
+[2016.11.12-20.39.44:458][416]0.237537
+[2016.11.12-20.39.44:475][417]0.221461
+[2016.11.12-20.39.44:493][418]0.206239
+[2016.11.12-20.39.44:509][419]0.173368
+[2016.11.12-20.39.44:526][420]0.146205
+[2016.11.12-20.39.44:543][421]0.192074
+[2016.11.12-20.39.44:560][422]0.254303
+[2016.11.12-20.39.44:577][423]0.271633
+[2016.11.12-20.39.44:631][426]0.242956
+[2016.11.12-20.39.44:649][427]0.196541
+[2016.11.12-20.39.44:666][428]0.164702
+[2016.11.12-20.39.44:683][429]0.150231
+[2016.11.12-20.39.44:699][430]0.141682
+[2016.11.12-20.39.44:750][433]0.132583
+[2016.11.12-20.39.44:767][434]0.140142
+[2016.11.12-20.39.45:576][480]0.031250
+[2016.11.12-20.39.45:576][480]0.014731
+[2016.11.12-20.39.45:593][481]0.041667
+[2016.11.12-20.39.45:610][482]0.042949
+[2016.11.12-20.39.45:660][485]0.053115
+[2016.11.12-20.39.45:678][486]0.065881
+[2016.11.12-20.39.45:694][487]0.075834
+[2016.11.12-20.39.45:711][488]0.085898
+[2016.11.12-20.39.45:727][489]0.094327
+[2016.11.12-20.39.45:744][490]0.104167
+[2016.11.12-20.39.45:811][494]0.096037
+[2016.11.12-20.39.45:828][495]0.102592
+[2016.11.12-20.39.45:844][496]0.093170
+[2016.11.12-20.39.45:861][497]0.107246
+[2016.11.12-20.39.45:978][504]0.112673
+[2016.11.12-20.39.45:994][505]0.104167
+[2016.11.12-20.39.46:011][506]0.103120
+[2016.11.12-20.39.46:228][519]0.089608
+[2016.11.12-20.48.07:186][162]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.48.07:316][162]BlueprintEditorCompileResults: Info [5133.72] Compile of OptionsWidget successful! [in 128 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.48.07:767][185]LogSavePackage: Save=18.84ms
+[2016.11.12-20.48.07:767][185]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget0A7D497D4D8F75110164D991482314B7.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.48.07:768][185]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.49.57:228][565]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.49.57:315][565]BlueprintEditorCompileResults: Info [5243.72] Compile of OptionsWidget successful! [in 87 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.49.57:782][590]LogSavePackage: Save=18.47ms
+[2016.11.12-20.49.57:782][590]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetBA65B39746BF3803D6F68197606FE168.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.49.57:784][590]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.51.37:199][364]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.51.37:309][364]BlueprintEditorCompileResults: Info [5343.71] Compile of OptionsWidget successful! [in 109 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.51.37:807][391]LogSavePackage: Save=20.96ms
+[2016.11.12-20.51.37:807][391]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetB99D318A4A5D03CBC69492B3572C00FA.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.51.37:808][391]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.55.28:696][985]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.55.28:818][985]BlueprintEditorCompileResults: Info [5575.22] Compile of OptionsWidget successful! [in 122 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.55.29:407][  9]LogSavePackage: Save=154.40ms
+[2016.11.12-20.55.29:407][  9]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget28407EC5410C565431AE219E1F4E9BAA.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.55.29:408][  9]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.55.54:975][527]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.55.54:982][527]LogBlueprint:Error: Compiler Error Binding: Property ' OnMouseButtonDownEvent ' on Widget ' ImageOptions ': Unknown Error
+[2016.11.12-20.55.55:166][527]LogBlueprint:Warning: Compiler Warning [5601.57] Compile of OptionsWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 190 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.55.55:166][527]BlueprintEditorCompileResults:Error: Error Binding: Property ' OnMouseButtonDownEvent ' on Widget ' ImageOptions ': Unknown Error
+[2016.11.12-20.55.55:166][527]BlueprintEditorCompileResults:Warning: Warning [5601.57] Compile of OptionsWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 190 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.55.55:553][547]LogSavePackage: Save=19.66ms
+[2016.11.12-20.55.55:553][547]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget395944D249F2B771EDAB86B0ED762FA5.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.55.55:554][547]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.55.58:614][730]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2016.11.12-20.56.05:918][168]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2016.11.12-20.56.14:659][692]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.56.14:666][692]LogBlueprint:Error: Compiler Error Binding: Property ' OnMouseButtonDownEvent ' on Widget ' ImageOptions ': Unknown Error
+[2016.11.12-20.56.14:839][692]LogBlueprint:Warning: Compiler Warning [5621.24] Compile of OptionsWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 180 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.56.14:839][692]BlueprintEditorCompileResults:Error: Error Binding: Property ' OnMouseButtonDownEvent ' on Widget ' ImageOptions ': Unknown Error
+[2016.11.12-20.56.14:839][692]BlueprintEditorCompileResults:Warning: Warning [5621.24] Compile of OptionsWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 180 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.56.23:155][190]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2016.11.12-20.56.26:327][380]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2016.11.12-20.56.27:116][427]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2016.11.12-20.56.33:546][811]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.56.33:551][811]LogBlueprint:Error: Compiler Error Binding: Property ' OnMouseButtonDownEvent ' on Widget ' ImageOptions ': Binding: 'None' : 'None' was not found on 'Options Widget'.
+[2016.11.12-20.56.33:742][811]LogBlueprint:Warning: Compiler Warning [5640.14] Compile of OptionsWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 196 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.56.33:742][811]BlueprintEditorCompileResults:Error: Error Binding: Property ' OnMouseButtonDownEvent ' on Widget ' ImageOptions ': Binding: 'None' : 'None' was not found on 'Options Widget'.
+[2016.11.12-20.56.33:742][811]BlueprintEditorCompileResults:Warning: Warning [5640.14] Compile of OptionsWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 196 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.56.34:475][852]LogSavePackage: Save=17.64ms
+[2016.11.12-20.56.34:475][852]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetD37249794925E7E0C7E463A7DAB2574C.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.56.34:476][852]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.56.45:197][459]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.56.45:319][459]BlueprintEditorCompileResults: Info [5651.72] Compile of OptionsWidget successful! [in 121 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.56.46:124][501]LogSavePackage: Save=16.50ms
+[2016.11.12-20.56.46:124][501]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetC5938CC545F24E4CF01ECF97BC649AF9.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.56.46:126][501]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.58.00:750][767]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.58.00:876][767]BlueprintEditorCompileResults: Info [5727.28] Compile of OptionsWidget successful! [in 125 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.58.03:942][948]LogSavePackage: Save=18.22ms
+[2016.11.12-20.58.03:942][948]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetB4C3E93346F28A4B47EF9EBB12ACF487.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.58.03:944][948]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.58.12:342][451]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.58.12:452][451]BlueprintEditorCompileResults: Info [5738.85] Compile of OptionsWidget successful! [in 109 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.58.12:910][475]LogSavePackage: Save=19.82ms
+[2016.11.12-20.58.12:910][475]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget7A66BDF8438A220A0D4F4E9510A1BB6C.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.58.12:911][475]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.58.23:836][123]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.58.23:948][123]BlueprintEditorCompileResults: Info [5750.35] Compile of OptionsWidget successful! [in 111 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.58.24:428][149]LogSavePackage: Save=20.76ms
+[2016.11.12-20.58.24:429][149]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetE8ACB1D546E3323ABFCABE858882A361.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.58.24:431][149]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-20.59.02:862][438]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_32 or K2Node_CallFunction /Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget:EventGraph.K2Node_CallFunction_32
+[2016.11.12-20.59.02:862][438]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_32.EdGraphPin_189''
+[2016.11.12-20.59.02:862][438]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2016.11.12-20.59.02:862][438]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_0.EdGraphPin_198''
+[2016.11.12-20.59.02:862][438]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2016.11.12-20.59.02:862][438]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_0.EdGraphPin_200''
+[2016.11.12-20.59.19:175][414]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-20.59.19:285][414]BlueprintEditorCompileResults: Info [5805.69] Compile of OptionsWidget successful! [in 110 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-20.59.19:787][441]LogSavePackage: Save=21.78ms
+[2016.11.12-20.59.19:787][441]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget19DB81DE4A88907FFCE6A69AFB4DEEA4.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-20.59.19:788][441]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.00.02:139][955]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_32 or K2Node_CallFunction /Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget:EventGraph.K2Node_CallFunction_32
+[2016.11.12-21.00.02:139][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_32.EdGraphPin_189''
+[2016.11.12-21.00.02:140][955]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2016.11.12-21.00.02:140][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_0.EdGraphPin_198''
+[2016.11.12-21.00.02:140][955]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2016.11.12-21.00.02:140][955]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_0.EdGraphPin_200''
+[2016.11.12-21.01.59:011][755]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-21.01.59:127][755]BlueprintEditorCompileResults: Info [5965.53] Compile of OptionsWidget successful! [in 116 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.01.59:582][778]LogSavePackage: Save=24.59ms
+[2016.11.12-21.01.59:582][778]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetD31B09CE4BD85B6DB36135A061F71204.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.01.59:584][778]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.02.46:162][171]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LEVELS/GameScreen' took 0.017
+[2016.11.12-21.02.46:164][171]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OBJECTS/SpaceShip/Options/OptionsWidget] ([1] browsable assets)...
+[2016.11.12-21.02.46:164][171]OBJ SavePackage: Finished generating thumbnails for package [/Game/OBJECTS/SpaceShip/Options/OptionsWidget]
+[2016.11.12-21.02.46:193][171]LogSavePackage: Save=23.40ms
+[2016.11.12-21.02.46:193][171]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget_Auto2CDC7EF3D4B5B581E5AEA93BEFD206895.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/OBJECTS/SpaceShip/Options/OptionsWidget_Auto2.uasset'
+[2016.11.12-21.02.46:195][171]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/OBJECTS/SpaceShip/Options/OptionsWidget_Auto2.uasset
+[2016.11.12-21.02.46:195][171]LogFileHelpers: Auto-saving content packages took 0.032
+[2016.11.12-21.02.47:590][250]LogSavePackage: Save=26.24ms
+[2016.11.12-21.02.47:590][250]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetE803E6EC4ABD6530CA342FA84095FB57.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.02.47:592][250]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.02.49:948][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.02.49:948][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-21.02.49:948][387]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 5:02:49 AM)
+[2016.11.12-21.02.49:948][387]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_GameScreen
+[2016.11.12-21.02.49:950][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002133s)
+[2016.11.12-21.02.49:951][387]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-21.02.49:951][387]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2016.11.12-21.02.49:951][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LEVELS/GameScreen.GameScreen to /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen (0.003117s)
+[2016.11.12-21.02.49:971][387]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-21.02.49:979][387]LogInit: FAudioDevice initialized.
+[2016.11.12-21.02.50:011][387]LogWorld: Game class is 'GameScreen-GameMode_C'
+[2016.11.12-21.02.50:014][387]LogWorld: Bringing World /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen up for play (max tick rate 60) at 2016.11.12-13.02.50
+[2016.11.12-21.02.50:014][387]LogWorld: Bringing up level for play took: 0.001361
+[2016.11.12-21.02.50:016][387]LogBlueprintUserMessages: [GameScreen_C_0] ITEM IS FALSE
+[2016.11.12-21.02.50:016][387]PIE: Info Play in editor start time for /Game/LEVELS/UEDPIE_0_GameScreen -0.175
+[2016.11.12-21.02.50:016][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.02.57:064][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.02.57:097][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.03.19:286][ 86]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-21.03.19:420][ 86]BlueprintEditorCompileResults: Info [6045.82] Compile of OptionsWidget successful! [in 133 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.03.20:050][119]LogSavePackage: Save=24.95ms
+[2016.11.12-21.03.20:050][119]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget2B247F1B44B1F21EFDCB79827CC8F132.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.03.20:052][119]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.03.32:926][816]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-21.03.33:060][816]BlueprintEditorCompileResults: Info [6059.46] Compile of OptionsWidget successful! [in 134 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.03.33:537][840]LogSavePackage: Save=25.12ms
+[2016.11.12-21.03.33:538][840]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetE75A0EB44588068B87B723A262F08DA0.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.03.33:539][840]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.03.39:883][194]LogSavePackage: Save=24.31ms
+[2016.11.12-21.03.39:884][194]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget26FEDB3A4DA49E675E541ABE92997973.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.03.39:884][194]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.03.41:484][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.03.41:484][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-21.03.41:484][281]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 5:03:41 AM)
+[2016.11.12-21.03.41:484][281]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_GameScreen
+[2016.11.12-21.03.41:486][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001862s)
+[2016.11.12-21.03.41:487][281]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-21.03.41:487][281]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2016.11.12-21.03.41:487][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LEVELS/GameScreen.GameScreen to /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen (0.002750s)
+[2016.11.12-21.03.41:505][281]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-21.03.41:511][281]LogInit: FAudioDevice initialized.
+[2016.11.12-21.03.41:543][281]LogWorld: Game class is 'GameScreen-GameMode_C'
+[2016.11.12-21.03.41:545][281]LogWorld: Bringing World /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen up for play (max tick rate 60) at 2016.11.12-13.03.41
+[2016.11.12-21.03.41:545][281]LogWorld: Bringing up level for play took: 0.001138
+[2016.11.12-21.03.41:548][281]LogBlueprintUserMessages: [GameScreen_C_0] ITEM IS FALSE
+[2016.11.12-21.03.41:548][281]PIE: Info Play in editor start time for /Game/LEVELS/UEDPIE_0_GameScreen -0.643
+[2016.11.12-21.03.41:548][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.03.45:028][489]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.03.45:064][489]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.04.08:461][827]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-21.04.08:580][827]BlueprintEditorCompileResults: Info [6094.98] Compile of OptionsWidget successful! [in 119 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.04.09:022][850]LogSavePackage: Save=26.02ms
+[2016.11.12-21.04.09:022][850]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetAD42C09D437553AD8F593D956281935B.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.04.09:023][850]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.04.10:662][945]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.04.10:662][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-21.04.10:662][945]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 5:04:10 AM)
+[2016.11.12-21.04.10:662][945]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_GameScreen
+[2016.11.12-21.04.10:664][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002176s)
+[2016.11.12-21.04.10:664][945]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-21.04.10:665][945]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2016.11.12-21.04.10:665][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LEVELS/GameScreen.GameScreen to /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen (0.003001s)
+[2016.11.12-21.04.10:683][945]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-21.04.10:689][945]LogInit: FAudioDevice initialized.
+[2016.11.12-21.04.10:723][945]LogWorld: Game class is 'GameScreen-GameMode_C'
+[2016.11.12-21.04.10:726][945]LogWorld: Bringing World /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen up for play (max tick rate 60) at 2016.11.12-13.04.10
+[2016.11.12-21.04.10:726][945]LogWorld: Bringing up level for play took: 0.001443
+[2016.11.12-21.04.10:728][945]LogBlueprintUserMessages: [GameScreen_C_0] ITEM IS FALSE
+[2016.11.12-21.04.10:728][945]PIE: Info Play in editor start time for /Game/LEVELS/UEDPIE_0_GameScreen 0.537
+[2016.11.12-21.04.10:728][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.04.13:088][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.04.13:124][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.06.46:714][862]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-21.06.46:724][862]LogBlueprint:Error: Compiler Error Binding: Property ' OnMouseButtonDownEvent ' on Widget ' ImageOptions ': Unknown Error
+[2016.11.12-21.06.46:941][862]LogBlueprint:Warning: Compiler Warning [6253.34] Compile of OptionsWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 227 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.06.46:942][862]BlueprintEditorCompileResults:Error: Error Binding: Property ' OnMouseButtonDownEvent ' on Widget ' ImageOptions ': Unknown Error
+[2016.11.12-21.06.46:942][862]BlueprintEditorCompileResults:Warning: Warning [6253.34] Compile of OptionsWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 227 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.06.47:300][880]LogSavePackage: Save=25.27ms
+[2016.11.12-21.06.47:300][880]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget1B7A595A4E695BF8C3CA4DBEC0A92A65.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.06.47:301][880]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.06.54:327][301]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2016.11.12-21.07.00:650][679]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-21.07.00:791][679]BlueprintEditorCompileResults: Info [6267.19] Compile of OptionsWidget successful! [in 141 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.07.01:451][715]LogSavePackage: Save=25.75ms
+[2016.11.12-21.07.01:451][715]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget082E553544D534C8A3D73E85760FA7C4.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.07.01:452][715]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.07.17:167][652]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-21.07.17:296][652]BlueprintEditorCompileResults: Info [6283.70] Compile of OptionsWidget successful! [in 128 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.07.17:717][674]LogSavePackage: Save=27.60ms
+[2016.11.12-21.07.17:717][674]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidgetB9DFF43D4E0730DA024B1AAA62F8BDDC.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.07.17:718][674]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.07.24:105][ 53]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.07.24:105][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-21.07.24:105][ 53]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 5:07:24 AM)
+[2016.11.12-21.07.24:105][ 53]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_GameScreen
+[2016.11.12-21.07.24:107][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002039s)
+[2016.11.12-21.07.24:107][ 53]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-21.07.24:107][ 53]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2016.11.12-21.07.24:108][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LEVELS/GameScreen.GameScreen to /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen (0.002780s)
+[2016.11.12-21.07.24:126][ 53]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-21.07.24:133][ 53]LogInit: FAudioDevice initialized.
+[2016.11.12-21.07.24:164][ 53]LogWorld: Game class is 'GameScreen-GameMode_C'
+[2016.11.12-21.07.24:167][ 53]LogWorld: Bringing World /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen up for play (max tick rate 60) at 2016.11.12-13.07.24
+[2016.11.12-21.07.24:168][ 53]LogWorld: Bringing up level for play took: 0.001333
+[2016.11.12-21.07.24:170][ 53]LogBlueprintUserMessages: [GameScreen_C_0] ITEM IS FALSE
+[2016.11.12-21.07.24:170][ 53]PIE: Info Play in editor start time for /Game/LEVELS/UEDPIE_0_GameScreen -0.022
+[2016.11.12-21.07.24:170][ 53]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.07.26:298][180]PIE:Warning: Warning The widget 'OptionsWidget_C' was already added to the screen.
+[2016.11.12-21.07.27:713][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.07.27:749][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.07.29:553][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.07.29:553][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-21.07.29:554][371]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 5:07:29 AM)
+[2016.11.12-21.07.29:554][371]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_GameScreen
+[2016.11.12-21.07.29:556][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001914s)
+[2016.11.12-21.07.29:556][371]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-21.07.29:556][371]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2016.11.12-21.07.29:556][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LEVELS/GameScreen.GameScreen to /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen (0.002667s)
+[2016.11.12-21.07.29:575][371]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-21.07.29:581][371]LogInit: FAudioDevice initialized.
+[2016.11.12-21.07.29:612][371]LogWorld: Game class is 'GameScreen-GameMode_C'
+[2016.11.12-21.07.29:615][371]LogWorld: Bringing World /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen up for play (max tick rate 60) at 2016.11.12-13.07.29
+[2016.11.12-21.07.29:616][371]LogWorld: Bringing up level for play took: 0.001291
+[2016.11.12-21.07.29:618][371]LogBlueprintUserMessages: [GameScreen_C_0] ITEM IS FALSE
+[2016.11.12-21.07.29:618][371]PIE: Info Play in editor start time for /Game/LEVELS/UEDPIE_0_GameScreen -0.574
+[2016.11.12-21.07.29:618][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.07.31:345][474]PIE:Warning: Warning The widget 'OptionsWidget_C' was already added to the screen.
+[2016.11.12-21.07.35:061][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.07.35:095][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.08.55:291][443]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-21.08.55:413][443]BlueprintEditorCompileResults: Info [6381.81] Compile of OptionsWidget successful! [in 121 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.08.55:838][465]LogSavePackage: Save=28.87ms
+[2016.11.12-21.08.55:838][465]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget83EFC6FC4C564247CD77488B23C12303.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.08.55:840][465]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.09.08:157][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.09.08:157][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-21.09.08:157][200]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 5:09:08 AM)
+[2016.11.12-21.09.08:157][200]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_GameScreen
+[2016.11.12-21.09.08:159][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001946s)
+[2016.11.12-21.09.08:159][200]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-21.09.08:159][200]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2016.11.12-21.09.08:160][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LEVELS/GameScreen.GameScreen to /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen (0.002701s)
+[2016.11.12-21.09.08:178][200]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-21.09.08:184][200]LogInit: FAudioDevice initialized.
+[2016.11.12-21.09.08:213][200]LogWorld: Game class is 'GameScreen-GameMode_C'
+[2016.11.12-21.09.08:216][200]LogWorld: Bringing World /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen up for play (max tick rate 60) at 2016.11.12-13.09.08
+[2016.11.12-21.09.08:216][200]LogWorld: Bringing up level for play took: 0.001205
+[2016.11.12-21.09.08:219][200]LogBlueprintUserMessages: [GameScreen_C_0] ITEM IS FALSE
+[2016.11.12-21.09.08:219][200]PIE: Info Play in editor start time for /Game/LEVELS/UEDPIE_0_GameScreen 0.027
+[2016.11.12-21.09.08:219][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.09.10:530][338]PIE:Warning: Warning The widget 'OptionsWidget_C' was already added to the screen.
+[2016.11.12-21.09.14:029][548]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.09.14:059][548]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.10.38:242][532]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.12-21.11.06:557][205]BlueprintLog: New page: Compile OptionsWidget
+[2016.11.12-21.11.06:686][205]BlueprintEditorCompileResults: Info [6513.09] Compile of OptionsWidget successful! [in 129 ms] (/Game/OBJECTS/SpaceShip/Options/OptionsWidget.OptionsWidget)
+[2016.11.12-21.11.07:049][223]LogSavePackage: Save=31.39ms
+[2016.11.12-21.11.07:049][223]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/OptionsWidget82EB8A824B4B79FB2E2C1EB0A8AD18DE.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset'
+[2016.11.12-21.11.07:050][223]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SpaceShip/Options/OptionsWidget.uasset
+[2016.11.12-21.11.09:018][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.11.09:019][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-21.11.09:019][337]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 5:11:09 AM)
+[2016.11.12-21.11.09:019][337]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_GameScreen
+[2016.11.12-21.11.09:021][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002014s)
+[2016.11.12-21.11.09:021][337]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-21.11.09:021][337]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2016.11.12-21.11.09:021][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LEVELS/GameScreen.GameScreen to /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen (0.002790s)
+[2016.11.12-21.11.09:044][337]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-21.11.09:052][337]LogInit: FAudioDevice initialized.
+[2016.11.12-21.11.09:086][337]LogWorld: Game class is 'GameScreen-GameMode_C'
+[2016.11.12-21.11.09:088][337]LogWorld: Bringing World /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen up for play (max tick rate 60) at 2016.11.12-13.11.09
+[2016.11.12-21.11.09:088][337]LogWorld: Bringing up level for play took: 0.001274
+[2016.11.12-21.11.09:090][337]LogBlueprintUserMessages: [GameScreen_C_0] ITEM IS FALSE
+[2016.11.12-21.11.09:090][337]PIE: Info Play in editor start time for /Game/LEVELS/UEDPIE_0_GameScreen 0.899
+[2016.11.12-21.11.09:091][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.11.16:019][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.11.16:051][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.11.18:311][886]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.11.18:311][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-21.11.18:311][886]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 5:11:18 AM)
+[2016.11.12-21.11.18:311][886]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_GameScreen
+[2016.11.12-21.11.18:313][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001998s)
+[2016.11.12-21.11.18:314][886]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.12-21.11.18:314][886]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2016.11.12-21.11.18:314][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LEVELS/GameScreen.GameScreen to /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen (0.002651s)
+[2016.11.12-21.11.18:334][886]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.12-21.11.18:341][886]LogInit: FAudioDevice initialized.
+[2016.11.12-21.11.18:370][886]LogWorld: Game class is 'GameScreen-GameMode_C'
+[2016.11.12-21.11.18:373][886]LogWorld: Bringing World /Game/LEVELS/UEDPIE_0_GameScreen.GameScreen up for play (max tick rate 60) at 2016.11.12-13.11.18
+[2016.11.12-21.11.18:373][886]LogWorld: Bringing up level for play took: 0.001296
+[2016.11.12-21.11.18:375][886]LogBlueprintUserMessages: [GameScreen_C_0] ITEM IS FALSE
+[2016.11.12-21.11.18:375][886]PIE: Info Play in editor start time for /Game/LEVELS/UEDPIE_0_GameScreen 0.184
+[2016.11.12-21.11.18:376][886]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.11.22:207][115]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.11.22:243][115]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.11.23:452][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel' has LevelScriptBlueprint '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen' with GeneratedClass '/Game/LEVELS/GameScreen.GameScreen_C' with ClassGeneratedBy '/Game/LEVELS/GameScreen.GameScreen:PersistentLevel.GameScreen'
+[2016.11.12-21.11.23:453][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.12-21.11.23:453][186]PIE: New page: PIE session: GameScreen (Nov 12, 2016, 5:11:23 AM)
+[2016.11.12-21.11.23:453][186]LogPlayLevel: Creating play world package: /Game/LEVELS/UEDPIE_0_

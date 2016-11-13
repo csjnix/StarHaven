@@ -1,0 +1,490 @@
+﻿Log file open, 11/11/16 14:24:59
+LogInit:Display: Running engine for game: StarHavenMobile
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2062600582) SRandInit(2062600584).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083944
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.11-22.24.59:618][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.11-22.24.59:618][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.11-22.24.59:628][  0]LogInit: Computer: MICKEY9
+[2016.11.11-22.24.59:628][  0]LogInit: User: csjnix
+[2016.11.11-22.24.59:628][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.11-22.24.59:628][  0]LogInit: High frequency timer resolution =2.531256 MHz
+[2016.11.11-22.24.59:628][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.11-22.24.59:628][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.11-22.24.59:628][  0]LogMemory: Process Physical Memory: 190.46 MB used, 190.46 MB peak
+[2016.11.11-22.24.59:628][  0]LogMemory: Process Virtual Memory: 195.38 MB used, 195.38 MB peak
+[2016.11.11-22.24.59:628][  0]LogMemory: Physical Memory: 4825.26 MB used, 16255.28 MB total
+[2016.11.11-22.24.59:628][  0]LogMemory: Virtual Memory: 553.59 MB used, 134217728.00 MB total
+[2016.11.11-22.24.59:661][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.11-22.25.00:088][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.11-22.25.00:118][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2016.11.11-22.25.00:118][  0]LogD3D11RHI:       3037/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.11.11-22.25.00:125][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.11.11-22.25.00:125][  0]LogD3D11RHI:       128/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.11.11-22.25.00:126][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.11-22.25.00:126][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.11-22.25.00:126][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.11-22.25.00:133][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.11-22.25.00:134][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.11-22.25.00:134][  0]LogWindows: EnumDisplayDevices:
+[2016.11.11-22.25.00:134][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2016.11.11-22.25.00:134][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.11-22.25.00:134][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.11-22.25.00:134][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2016.11.11-22.25.00:134][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2016.11.11-22.25.00:134][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2016.11.11-22.25.00:134][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2016.11.11-22.25.00:134][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2016.11.11-22.25.00:134][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.11-22.25.00:151][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.11-22.25.00:163][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.11-22.25.00:163][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Intermediate/Shaders/WorkingDirectory/6356/).
+[2016.11.11-22.25.00:164][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/csjni/AppData/Local/Temp/UnrealShaderWorkingDir/40B782EC4F51E618F8F90AB4B496AB64/'.
+[2016.11.11-22.25.00:164][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.11-22.25.01:012][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.11-22.25.01:022][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.11-22.25.01:031][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.11-22.25.01:042][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.11-22.25.01:051][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.11-22.25.01:058][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.11-22.25.01:066][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.11-22.25.01:073][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.11-22.25.01:080][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.11-22.25.01:088][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.11-22.25.01:095][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.11-22.25.01:110][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.11-22.25.01:110][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.11-22.25.01:110][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.11-22.25.01:131][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.11-22.25.01:138][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.11-22.25.01:145][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.11-22.25.01:152][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.11-22.25.01:162][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.11-22.25.01:162][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.11-22.25.01:225][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.11-22.25.01:272][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/csjni/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.11-22.25.01:273][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/csjni/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.11.11-22.25.01:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.11-22.25.01:273][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.11-22.25.01:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.11-22.25.01:273][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.11-22.25.01:288][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.11-22.25.01:301][  0]LogDerivedDataCache: Using Local data cache path C:/Users/csjni/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.11-22.25.01:490][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.11-22.25.01:491][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.11-22.25.01:656][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.11-22.25.01:656][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.11-22.25.01:656][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.11-22.25.01:915][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2016.11.11-22.25.01:935][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.018161 seconds
+[2016.11.11-22.25.01:941][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.11.11-22.25.01:941][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.11.11-22.25.01:941][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.11-22.25.01:946][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.11-22.25.02:106][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.11-22.25.02:106][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.11-22.25.02:709][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.11-22.25.02:929][  0]SourceControl: Info Source control is disabled
+[2016.11.11-22.25.02:930][  0]SourceControl: Info Source control is disabled
+[2016.11.11-22.25.02:938][  0]SourceControl: Info Source control is disabled
+[2016.11.11-22.25.02:946][  0]SourceControl: Info Source control is disabled
+[2016.11.11-22.25.03:161][  0]LogEngine: Initializing Engine...
+[2016.11.11-22.25.03:162][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.11-22.25.03:163][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.11-22.25.03:297][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.11-22.25.03:301][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.11-22.25.03:313][  0]LogInit: FAudioDevice initialized.
+[2016.11.11-22.25.03:340][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/csjni/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.11-22.25.03:347][  0]LogInit: Texture streaming: Enabled
+[2016.11.11-22.25.03:369][  0]LogInit: Transaction tracking system initialized
+[2016.11.11-22.25.03:389][  0]BlueprintLog: New page: Editor Load
+[2016.11.11-22.25.03:452][  0]LocalizationService: Info Localization service is disabled
+[2016.11.11-22.25.03:505][  0]LogConsoleResponse:Display: 
+[2016.11.11-22.25.03:600][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.11.11-22.25.03:600][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.11-22.25.03:682][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/' took 0.01s
+[2016.11.11-22.25.03:682][  0]SourceControl: Info Source control is disabled
+[2016.11.11-22.25.03:682][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-22.25.03:682][  0]LightingResults: New page: Lighting Build
+[2016.11.11-22.25.03:685][  0]MapCheck: New page: Map Check
+[2016.11.11-22.25.03:685][  0]LightingResults: New page: Lighting Build
+[2016.11.11-22.25.03:906][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.11-22.25.03:912][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-22.25.03:917][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-22.25.03:954][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.918ms to complete.
+[2016.11.11-22.25.03:954][  0]LogFileHelpers: Loading map 'Template_Default' took 0.272
+[2016.11.11-22.25.04:086][  0]LogCollectionManager: Loaded 0 collections in 0.001468 seconds
+[2016.11.11-22.25.04:125][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Collections/' took 0.01s
+[2016.11.11-22.25.04:125][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/Developers/csjnix/Collections/' took 0.01s
+[2016.11.11-22.25.04:125][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/Collections/' took 0.01s
+[2016.11.11-22.25.04:125][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.11-22.25.04:133][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2047 classes and 369 folders.
+[2016.11.11-22.25.04:136][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.11-22.25.04:136][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.11-22.25.04:137][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.11.11-22.25.04:141][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.11-22.25.04:175][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.11-22.25.04:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.11-22.25.04:223][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.11-22.25.04:233][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.11-22.25.04:259][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.11-22.25.04:260][  0]LogLoad: Full Startup: 5.29 seconds (BP compile: 0.03 seconds)
+[2016.11.11-22.25.04:260][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.11-22.25.04:260][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.11-22.25.04:599][  0]LogOcInput: OculusInput pre-init called
+[2016.11.11-22.25.04:620][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.11-22.25.04:764][  0]LogRenderer: Reallocating scene render targets to support 788x476 (Frame:2).
+[2016.11.11-22.25.04:947][  1]LogAssetRegistry: Asset discovery search completed in 3.0532 seconds
+[2016.11.11-22.25.04:947][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.11.11-22.25.04:947][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.11.11-22.25.13:553][435]LogMetaData: Removing '/Game/OBJECTS/SKY.SKY:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SKY.PackageMetaData'
+[2016.11.11-22.25.13:553][435]LogMetaData: Removing '/Game/OBJECTS/SKY.SKY_C' ref from Metadata '/Game/SKY.PackageMetaData'
+[2016.11.11-22.25.13:553][435]LogMetaData: Removing '/Game/OBJECTS/SKY.SKY:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SKY.PackageMetaData'
+[2016.11.11-22.25.13:553][435]LogMetaData: Removing '/Game/OBJECTS/SKY.SKY:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SKY.PackageMetaData'
+[2016.11.11-22.25.13:553][435]LogMetaData: Removing '/Game/OBJECTS/SKY.SKY:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SKY.PackageMetaData'
+[2016.11.11-22.25.13:553][435]LogMetaData: Removing '/Game/OBJECTS/SKY.SKEL_SKY_C:UserConstructionScript' ref from Metadata '/Game/SKY.PackageMetaData'
+[2016.11.11-22.25.13:553][435]LogMetaData: Removing '/Game/OBJECTS/SKY.SKEL_SKY_C' ref from Metadata '/Game/SKY.PackageMetaData'
+[2016.11.11-22.25.13:589][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OBJECTS/SKY" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SKY.uasset" SILENT=true
+[2016.11.11-22.25.13:612][435]LogSavePackage: Save=20.39ms
+[2016.11.11-22.25.13:612][435]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/SKYBB57C1924D5E3BACF7F69CAE61805E7D.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SKY.uasset'
+[2016.11.11-22.25.13:613][435]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/OBJECTS/SKY.uasset
+[2016.11.11-22.25.13:617][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SKY" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/SKY.uasset" SILENT=true
+[2016.11.11-22.25.13:630][435]LogSavePackage: Save=4.91ms
+[2016.11.11-22.25.13:630][435]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/SKYB32845CC456217CA8763AD9B88D733C1.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/SKY.uasset'
+[2016.11.11-22.25.13:631][435]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/SKY.uasset
+[2016.11.11-22.25.15:590][545]LogAIModule: Creating AISystem for world GameScreen
+[2016.11.11-22.25.15:610][545]Cmd: MAP LOAD FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/LEVELS/GameScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.11-22.25.15:610][545]LightingResults: New page: Lighting Build
+[2016.11.11-22.25.15:610][545]LoadErrors: New page: Loading map: GameScreen.umap
+[2016.11.11-22.25.15:611][545]MapCheck: New page: Map Check
+[2016.11.11-22.25.15:611][545]LightingResults: New page: Lighting Build
+[2016.11.11-22.25.15:656][545]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.11-22.25.15:676][545]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.11-22.25.15:710][545]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.99ms to complete.
+[2016.11.11-22.25.15:710][545]LogFileHelpers: Loading map 'GameScreen' took 0.102
+[2016.11.11-22.25.21:370][883]LogEditorActor: Deleted Actor: Brush
+[2016.11.11-22.25.21:379][883]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2016.11.11-22.26.24:525][653]LogEnum:Warning: In asset 'None', there is an enum property of type 'CORE-DataType' with an invalid value of 'CORE-DataType::NewEnumerator0'
+[2016.11.11-22.27.04:592][ 57]LogEnum:Warning: In asset 'None', there is an enum property of type 'CORE-DataType' with an invalid value of 'CORE-DataType::NewEnumerator1'
+[2016.11.11-22.27.17:992][861]LogEnum:Warning: In asset 'None', there is an enum property of type 'CORE-DataType' with an invalid value of 'CORE-DataType::NewEnumerator2'
+[2016.11.11-22.27.25:992][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-DataType" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataType.uasset" SILENT=true
+[2016.11.11-22.27.25:998][340]LogSavePackage: Save=3.98ms
+[2016.11.11-22.27.25:998][340]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-DataType808D09DD4A00A860CB0CAFA2708688B1.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataType.uasset'
+[2016.11.11-22.27.25:999][340]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataType.uasset
+[2016.11.11-22.28.52:436][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-DataItem" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataItem.uasset" SILENT=true
+[2016.11.11-22.28.52:442][474]LogSavePackage: Save=4.13ms
+[2016.11.11-22.28.52:442][474]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-DataItem4EB92E7342A0945629C8DBA34C125AB6.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataItem.uasset'
+[2016.11.11-22.28.52:443][474]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataItem.uasset
+[2016.11.11-22.29.00:403][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LEVELS/GameScreen" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/LEVELS/GameScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.11.11-22.29.00:505][944]LogSavePackage: Save=86.48ms
+[2016.11.11-22.29.00:505][944]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/GameScreen5DE34BC24A1F87AE7229069E30B4DB4E.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/LEVELS/GameScreen.umap'
+[2016.11.11-22.29.00:506][944]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/LEVELS/GameScreen.umap
+[2016.11.11-22.29.00:530][944]LogFileHelpers: Saving map 'GameScreen' took 0.168
+[2016.11.11-22.30.32:488][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-DataTable" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataTable.uasset" SILENT=true
+[2016.11.11-22.30.32:493][888]LogSavePackage: Save=3.58ms
+[2016.11.11-22.30.32:493][888]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-DataTableEF6FE6E34C307D4D8D0ED59307FE9D2C.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataTable.uasset'
+[2016.11.11-22.30.32:494][888]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataTable.uasset
+[2016.11.11-22.30.41:703][378]LogEnum:Warning: In asset 'None', there is an enum property of type 'CORE-DataType' with an invalid value of 'CORE-DataType::NewEnumerator3'
+[2016.11.11-22.31.02:353][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-DataType" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataType.uasset" SILENT=true
+[2016.11.11-22.31.02:359][611]LogSavePackage: Save=3.79ms
+[2016.11.11-22.31.02:360][611]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-DataTypeAC6931BF47C87D1B941FE68B8102CDEC.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataType.uasset'
+[2016.11.11-22.31.02:361][611]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataType.uasset
+[2016.11.11-22.31.41:798][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-DataItem" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataItem.uasset" SILENT=true
+[2016.11.11-22.31.41:806][960]LogSavePackage: Save=4.31ms
+[2016.11.11-22.31.41:806][960]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-DataItemCFE1DA4A4AA6B1EC239329907EBF3AAF.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataItem.uasset'
+[2016.11.11-22.31.41:807][960]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataItem.uasset
+[2016.11.11-22.33.17:110][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-DataTable" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataTable.uasset" SILENT=true
+[2016.11.11-22.33.17:114][644]LogSavePackage: Save=3.43ms
+[2016.11.11-22.33.17:114][644]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-DataTableE0F5311A4C9A2695FFB230B37D8C226A.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataTable.uasset'
+[2016.11.11-22.33.17:116][644]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataTable.uasset
+[2016.11.11-22.34.06:400][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-DataTable" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataTable.uasset" SILENT=true
+[2016.11.11-22.34.06:407][594]LogSavePackage: Save=3.54ms
+[2016.11.11-22.34.06:407][594]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-DataTableB3ACD2E7436FF907CDB835ACD1A74DF6.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataTable.uasset'
+[2016.11.11-22.34.06:408][594]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-DataTable.uasset
+[2016.11.11-22.35.00:690][823]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2016.11.11-22.38.02:939][654]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-22.38.03:023][654]BlueprintEditorCompileResults: Info [0784.06] Compile of CORE-Data successful! [in 83 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-22.38.03:736][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-22.38.03:746][696]LogSavePackage: Save=9.50ms
+[2016.11.11-22.38.03:746][696]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data086B6C394B0F369299DADCB8C8A732F8.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-22.38.03:748][696]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-22.40.22:108][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LEVELS/GameScreen' took 0.018
+[2016.11.11-22.40.22:111][430]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CORE/CORE-Data] ([1] browsable assets)...
+[2016.11.11-22.40.22:111][430]OBJ SavePackage: Finished generating thumbnails for package [/Game/CORE/CORE-Data]
+[2016.11.11-22.40.22:111][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.11.11-22.40.22:129][430]LogSavePackage: Save=10.97ms
+[2016.11.11-22.40.22:130][430]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data_Auto10928A21549EC5D9C5151E3BAAF2CEB23.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto1.uasset'
+[2016.11.11-22.40.22:130][430]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto1.uasset
+[2016.11.11-22.40.22:130][430]LogFileHelpers: Auto-saving content packages took 0.021
+[2016.11.11-22.45.27:402][835]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-22.45.27:477][835]BlueprintEditorCompileResults: Info [1228.51] Compile of CORE-Data successful! [in 74 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-22.45.28:924][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-22.45.28:941][921]LogSavePackage: Save=10.62ms
+[2016.11.11-22.45.28:941][921]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data174A8A82425950D3B6AC0D8045EB4F57.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-22.45.28:943][921]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-22.49.15:303][530]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-22.49.15:381][530]BlueprintEditorCompileResults: Info [1456.42] Compile of CORE-Data successful! [in 78 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-22.51.19:399][956]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LEVELS/GameScreen' took 0.016
+[2016.11.11-22.51.19:401][956]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CORE/CORE-Data] ([1] browsable assets)...
+[2016.11.11-22.51.19:401][956]OBJ SavePackage: Finished generating thumbnails for package [/Game/CORE/CORE-Data]
+[2016.11.11-22.51.19:401][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.11.11-22.51.19:419][956]LogSavePackage: Save=9.76ms
+[2016.11.11-22.51.19:419][956]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data_Auto2836E6FC144A092E66A8E38B3C3A7D770.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto2.uasset'
+[2016.11.11-22.51.19:420][956]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto2.uasset
+[2016.11.11-22.51.19:420][956]LogFileHelpers: Auto-saving content packages took 0.019
+[2016.11.11-22.52.33:087][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-22.52.33:100][273]LogSavePackage: Save=10.10ms
+[2016.11.11-22.52.33:100][273]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-DataDFBE662D40C44FA80F7C5FA0D8F1B0ED.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-22.52.33:103][273]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-22.55.37:473][887]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-22.55.37:542][887]BlueprintEditorCompileResults: Info [1838.58] Compile of CORE-Data successful! [in 68 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-22.57.08:693][287]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-22.57.08:768][287]BlueprintEditorCompileResults: Info [1929.80] Compile of CORE-Data successful! [in 75 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-22.57.09:566][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-22.57.09:576][334]LogSavePackage: Save=8.19ms
+[2016.11.11-22.57.09:576][334]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data6F6D84F147DC6100F4F1E4B56F9029C9.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-22.57.09:577][334]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-22.58.36:420][843]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-22.58.36:494][843]BlueprintEditorCompileResults: Info [2017.53] Compile of CORE-Data successful! [in 73 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-22.58.36:967][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-22.58.36:983][870]LogSavePackage: Save=8.26ms
+[2016.11.11-22.58.36:983][870]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data0324AD1141D0C10C3B8D188772DD41B5.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-22.58.36:984][870]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-22.59.05:768][116]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-22.59.05:844][116]BlueprintEditorCompileResults: Info [2046.88] Compile of CORE-Data successful! [in 75 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-22.59.16:467][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-22.59.16:480][743]LogSavePackage: Save=9.51ms
+[2016.11.11-22.59.16:480][743]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data5C5F43F148E297B2006ED0BA15D4F9B6.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-22.59.16:481][743]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-23.01.19:714][359]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LEVELS/GameScreen' took 0.019
+[2016.11.11-23.01.19:716][359]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CORE/CORE-Data] ([1] browsable assets)...
+[2016.11.11-23.01.19:716][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/CORE/CORE-Data]
+[2016.11.11-23.01.19:716][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.11.11-23.01.19:728][359]LogSavePackage: Save=9.10ms
+[2016.11.11-23.01.19:728][359]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data_Auto326E73E3A428A6A9227703F98691E0CCF.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto3.uasset'
+[2016.11.11-23.01.19:729][359]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto3.uasset
+[2016.11.11-23.01.19:729][359]LogFileHelpers: Auto-saving content packages took 0.014
+[2016.11.11-23.07.36:165][771]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-23.07.36:249][771]BlueprintEditorCompileResults: Info [2557.28] Compile of CORE-Data successful! [in 83 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-23.07.36:899][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-23.07.36:920][808]LogSavePackage: Save=13.83ms
+[2016.11.11-23.07.36:920][808]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data34D613334854D6E2235913B44530F721.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-23.07.36:922][808]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-23.07.46:905][405]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-23.07.46:983][405]BlueprintEditorCompileResults: Info [2568.02] Compile of CORE-Data successful! [in 76 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-23.07.47:472][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-23.07.47:489][433]LogSavePackage: Save=14.27ms
+[2016.11.11-23.07.47:489][433]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-DataE8F4FE2F4978D3C0682692A3654568FA.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-23.07.47:491][433]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_CallArrayFunction_2 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_136.K2Node_CallArrayFunction_2
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_CallArrayFunction_2 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_139.K2Node_CallArrayFunction_2
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_CallArrayFunction_2 or K2Node_CallArrayFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallArrayFunction_2
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_CallArrayFunction_2 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_2
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_CallArrayFunction_2 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_145.K2Node_CallArrayFunction_2
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_CallArrayFunction_2 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_154.K2Node_CallArrayFunction_2
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_CallArrayFunction_2 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:SetIntegerByName.K2Node_CallArrayFunction_2
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_145.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_154.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:SetIntegerByName.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_20.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_25.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_28.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_37.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_43.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_49.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_22.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_40.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_46.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_52.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_55.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_58.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_61.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_64.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_67.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_70.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_73.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_76.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_79.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_82.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_85.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:339][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_88.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_91.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_94.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_97.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_154.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_100.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_103.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_106.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_109.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_112.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_115.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_118.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_121.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_124.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_127.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_130.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_133.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_136.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_139.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_145.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_103.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_97.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_100.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_106.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_109.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_112.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_115.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:340][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_118.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_121.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_124.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_127.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_130.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_133.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_136.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_139.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_145.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_97 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_154.K2Node_FunctionEntry_1.EdGraphPin_97
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_145.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_154.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Game/CORE/CORE-Data.CORE-Data:SetIntegerByName.K2Node_CallArrayFunction_3
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionResult_2 or K2Node_FunctionResult /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_FunctionResult_2
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionResult_2 or K2Node_FunctionResult /Game/CORE/CORE-Data.CORE-Data:EdGraph_145.K2Node_FunctionResult_2
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionResult_2 or K2Node_FunctionResult /Game/CORE/CORE-Data.CORE-Data:EdGraph_154.K2Node_FunctionResult_2
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionResult_2 or K2Node_FunctionResult /Game/CORE/CORE-Data.CORE-Data:SetIntegerByName.K2Node_FunctionResult_2
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_20.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_25.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_28.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_37.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_43.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_49.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_22.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_40.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_46.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_52.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_55.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_58.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_61.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_64.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_67.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_70.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_73.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_76.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_79.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_82.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_85.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_88.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:341][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_91.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_94.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_97.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_154.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_100.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_103.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_106.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_109.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_112.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_115.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_118.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_121.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_124.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_127.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_130.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_133.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_136.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_139.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_FunctionEntry_1 or K2Node_FunctionEntry /Game/CORE/CORE-Data.CORE-Data:EdGraph_145.K2Node_FunctionEntry_1
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_103.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_97.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_100.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_106.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_109.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_112.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_115.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_118.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_121.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_124.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_127.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_130.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_133.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_136.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_139.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_142.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_145.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.19:342][649]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/CORE/CORE-Data.CORE-Data:GetIntegerByName.K2Node_FunctionEntry_1.EdGraphPin_96 or EdGraphPin /Game/CORE/CORE-Data.CORE-Data:EdGraph_154.K2Node_FunctionEntry_1.EdGraphPin_96
+[2016.11.11-23.10.38:468][787]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-23.10.38:550][787]BlueprintEditorCompileResults: Info [2739.59] Compile of CORE-Data successful! [in 82 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-23.10.39:260][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-23.10.39:280][828]LogSavePackage: Save=16.95ms
+[2016.11.11-23.10.39:280][828]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data5F39388F44ED2B5B6AA7D6BCF7A0CBB3.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-23.10.39:281][828]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-23.11.38:193][823]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-23.11.38:272][823]BlueprintEditorCompileResults: Info [2799.31] Compile of CORE-Data successful! [in 78 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-23.11.38:849][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-23.11.38:869][856]LogSavePackage: Save=17.28ms
+[2016.11.11-23.11.38:869][856]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data7A9B80214BBBD65135138F9BEB697618.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-23.11.38:871][856]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-23.11.45:813][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[2016.11.11-23.11.45:832][271]LogSavePackage: Save=16.18ms
+[2016.11.11-23.11.45:832][271]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data5EC7F77349CBD6E524E8A7B183535B7B.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset'
+[2016.11.11-23.11.45:833][271]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset
+[2016.11.11-23.14.24:392][720]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LEVELS/GameScreen' took 0.018
+[2016.11.11-23.14.24:395][720]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CORE/CORE-Data] ([1] browsable assets)...
+[2016.11.11-23.14.24:395][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/CORE/CORE-Data]
+[2016.11.11-23.14.24:395][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.11.11-23.14.24:421][720]LogSavePackage: Save=18.39ms
+[2016.11.11-23.14.24:421][720]LogSavePackage: Moving 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/CORE-Data_Auto4DA3D433F41F4E8ECDB4B33B43CC27FC5.tmp' to 'D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto4.uasset'
+[2016.11.11-23.14.24:421][720]LogSavePackage:Display: Finished SavePackage D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Saved/Autosaves/Game/CORE/CORE-Data_Auto4.uasset
+[2016.11.11-23.14.24:421][720]LogFileHelpers: Auto-saving content packages took 0.028
+[2016.11.11-23.17.20:932][277]BlueprintLog: New page: Compile CORE-Data
+[2016.11.11-23.17.21:014][277]BlueprintEditorCompileResults: Info [3142.05] Compile of CORE-Data successful! [in 82 ms] (/Game/CORE/CORE-Data.CORE-Data)
+[2016.11.11-23.17.21:966][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CORE/CORE-Data" FILE="D:/Documents/SOURCE CODE CONTROL REPOSITORY/StarHavenMobile/Content/CORE/CORE-Data.uasset" SILENT=true
+[
